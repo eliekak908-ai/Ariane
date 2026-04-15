@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script>
+    const card = document.querySelector('.card');
+
+    card.addEventListener('click', () => {
+        card.classList.toggle('open');
+    });
+</script>
+<body>
+   <div class="card">
+    <div class="back"></div>
+    <div class="front">
+        <div class="hover-text">Hover To Open</div>
+        <div class="cover-shape-large">
+            <div class="shape-diamond"></div>
+            <div class="shape-block"></div>
+        </div>
+        <div class="cover-shape-small">
+            <div class="shape-diamond"></div>
+            <div class="shape-block">
+                <div class="cake">
+                    <div class="layer layer-bottom"></div>
+                    <div class="layer layer-middle"></div>
+                    <div class="layer layer-top"></div>
+                    <div class="icing"></div>
+                    <div class="drip drip1"></div>
+                    <div class="drip drip2"></div>
+                    <div class="drip drip3"></div>
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+   <div class="text-container">
+    <p id="head"><b>Happy Birthday Ariane!</b></p>
+    <div class="image-box">
+        <img src="ariane1.jpeg" alt="Birthday Photo">
+    </div>
+    <div>Your first digital birthday card! <br> Developed Just For  You</div>
+    <p>Enjoy and Blast it!</p>
+   </div>
+</div>
+</body>
+<footer>
+    <div class="copyright">
+    © byzGeek
+</div>
+</footer>
+</html>
